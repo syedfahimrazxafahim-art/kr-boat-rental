@@ -1,0 +1,6 @@
+{
+  "name": "K&R Rentals",
+  "description": "Premium boat and kayak rentals in Anchorage, Alaska with fleet restoration by Power Cleaning Upholstery & Carpet LLC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

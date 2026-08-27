@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #0B1F33;
+    --color-ocean: #087EA4;
+    --color-aqua: #20C4D9;
+    --color-bg: #F5F9FA;
+    --color-text: #142B3A;
+  }
+
+  body {
+    background-color: #F5F9FA;
+    color: #142B3A;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom utility classes */
+.sleek-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(8, 126, 164, 0.12);
+  box-shadow: 0 10px 25px -5px rgba(8, 126, 164, 0.05);
+}
+
+.sleek-card:hover {
+  border-color: rgba(8, 126, 164, 0.25);
+  box-shadow: 0 14px 30px -5px rgba(8, 126, 164, 0.1);
+}
+
